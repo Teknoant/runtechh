@@ -1,0 +1,2 @@
+import type { MetadataRoute } from "next";
+export default function sitemap(): MetadataRoute.Sitemap {const base="https://www.runtechh.com.tr";return [{url:base,priority:1},{url:base+"/hizmetler",priority:.9},{url:base+"/referanslar",priority:.8}];}
