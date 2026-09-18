@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-import "./globals.css";
-
-export const metadata: Metadata = {title:"Runtechh | Bilişim Teknolojileri",description:"Fiber optik, yapısal kablolama, network, Wi-Fi, IP kamera ve sistem odası çözümleri."};
+import type { Metadata } from "next";import "./globals.css";
+export const metadata: Metadata={metadataBase:new URL("https://www.runtechh.com.tr"),title:{default:"Runtechh Bilişim Teknolojileri | Antalya",template:"%s | Runtechh"},description:"Antalya fiber optik, yapısal kablolama, network, Wi-Fi, IP kamera, UPS ve sistem odası çözümleri.",keywords:["Antalya fiber optik","Antalya network","yapısal kablolama","IP kamera","sistem odası","Runtechh"],openGraph:{title:"Runtechh Bilişim Teknolojileri",description:"Kurumsal bilişim altyapı çözümleri — Antalya.",type:"website",locale:"tr_TR",url:"https://www.runtechh.com.tr"},alternates:{canonical:"/"},robots:{index:true,follow:true}};
 export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="tr"><body>{children}</body></html>}
