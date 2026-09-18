@@ -42,3 +42,4 @@ footer{background:#fff;border-top-color:#dce5e6;color:#657980}footer .brand{colo
 .visualTiles figcaption{position:absolute;left:18px;bottom:18px;background:#ffffffed;padding:10px 14px;border-radius:6px;font-size:12px;font-weight:800;color:#26383e;box-shadow:0 8px 24px #0002}
 @media(max-width:900px){.photoHero{min-height:400px}.visualTiles{grid-template-columns:1fr 1fr}.visualTiles figure:first-child{grid-column:1/-1}.visualTiles figure{height:300px}}
 @media(max-width:560px){.visualBand{padding:70px 6vw}.visualIntro{display:block}.visualTiles{grid-template-columns:1fr}.visualTiles figure:first-child{grid-column:auto}.visualTiles figure{height:260px}.photoHero{min-height:300px}}
+.cards .icon{width:42px;height:42px;margin-top:28px;color:#cf4934}.cards .icon svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}.cards article:hover .icon{transform:translateY(-2px)}.cards .icon{transition:transform .25s}
