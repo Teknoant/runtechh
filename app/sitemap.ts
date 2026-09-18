@@ -1,2 +1,2 @@
 import type { MetadataRoute } from "next";
-export default function sitemap(): MetadataRoute.Sitemap {const base="https://www.runtechh.com.tr";return [{url:base,priority:1},{url:base+"/biz-kimiz",priority:.8},{url:base+"/hizmetler",priority:.9},{url:base+"/referanslar",priority:.8},{url:base+"/iletisim",priority:.9}];}
+export default function sitemap(): MetadataRoute.Sitemap {const base="https://www.runtechh.com.tr";const routes=["","/biz-kimiz","/hizmetler","/referanslar","/iletisim","/hizmetler/fiber-optik","/hizmetler/yapisal-kablolama","/hizmetler/network","/hizmetler/wifi","/hizmetler/ip-kamera","/hizmetler/sistem-odasi"];return routes.map((route,i)=>({url:base+route,priority:i===0?1:route==="/hizmetler"?.9:.8}));}
