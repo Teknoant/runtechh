@@ -133,3 +133,6 @@ footer{background:#fff;border-top-color:#dce5e6;color:#657980}footer .brand{colo
  .mobileMenu.isOpen .mobileMenuButton span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
  .mobileMenuButton span{transition:transform .2s ease,opacity .2s ease}
 }
+
+.whatsappPrimary{background:#25D366!important;color:#fff!important}.whatsappPrimary:hover{background:#1ebe5d!important}
+.notFound{min-height:100vh;display:grid;place-items:center;padding:8vw;background:#f7f9f9}.notFound>div{max-width:850px}.notFound h1{font-size:clamp(54px,7vw,100px);line-height:.94;letter-spacing:-4px;margin:20px 0}.notFound p{color:#657980;font-size:17px;margin-bottom:30px}
