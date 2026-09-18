@@ -1,0 +1,1 @@
+export const metadata={title:"Sayfa Bulunamadı"};export default function NotFound(){return <main className="notFound"><div><span className="eyebrow">404 / RUNTECHH</span><h1>Aradığınız sayfa<br/>bulunamadı.</h1><p>Bağlantı değişmiş veya sayfa kaldırılmış olabilir.</p><a className="primary" href="/">Ana Sayfaya Dön →</a></div></main>}
