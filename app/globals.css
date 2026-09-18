@@ -117,3 +117,19 @@ footer{background:#fff;border-top-color:#dce5e6;color:#657980}footer .brand{colo
  .mobileMenuPanel a{pointer-events:auto!important}
  .nav>.whatsappCta{background:#25D366!important;border-color:#25D366!important;color:#fff!important;position:relative;z-index:1203}
 }
+
+/* Definitive mobile navigation */
+.mobileMenuSheet{display:none}
+@media(max-width:760px){
+ .nav{overflow:visible!important}
+ .mobileMenu{display:block!important;position:static!important}
+ .mobileMenuButton{display:flex!important;position:relative!important;z-index:3002!important;pointer-events:auto!important}
+ .mobileMenuSheet{display:block!important;position:fixed!important;top:72px!important;left:0!important;right:0!important;background:#fff!important;z-index:3000!important;box-shadow:0 18px 35px #17212624!important;transform:translateY(-130%)!important;opacity:0!important;visibility:hidden!important;transition:transform .2s ease,opacity .2s ease,visibility .2s!important}
+ .mobileMenu.isOpen .mobileMenuSheet{transform:translateY(0)!important;opacity:1!important;visibility:visible!important}
+ .mobileMenuSheet nav{display:flex!important;flex-direction:column!important;padding:8px 5vw 20px!important}
+ .mobileMenuSheet nav a{display:block!important;padding:17px 2px!important;border-bottom:1px solid #e4eaeb!important;color:#21353b!important;font-size:15px!important;font-weight:750!important;pointer-events:auto!important}
+ .mobileMenu.isOpen .mobileMenuButton span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+ .mobileMenu.isOpen .mobileMenuButton span:nth-child(2){opacity:0}
+ .mobileMenu.isOpen .mobileMenuButton span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+ .mobileMenuButton span{transition:transform .2s ease,opacity .2s ease}
+}
